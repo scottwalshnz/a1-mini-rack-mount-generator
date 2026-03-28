@@ -3,15 +3,13 @@ A customisable mini-rack mount generator built specifically so serious rack part
 
 
 
-## Licence
+## Licensing
 
-This repository is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International** licence.
+This repository is licensed under the MIT License. See `LICENSE`.
 
-In plain English:
-- attribution is required;
-- commercial use is not permitted;
-- adaptations must be shared under the same licence.
+This work began from earlier MIT-licensed work and has since been modified.
 
-See:
-- https://creativecommons.org/licenses/by-nc-sa/4.0/
-- https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+Upstream work:
+- [spuder/10-Inch-Rack-OpenSCAD – 10InchRackGenerator.scad](https://github.com/spuder/10-Inch-Rack-OpenSCAD/blob/main/10InchRackGenerator.scad)
+
+Where required, the original MIT copyright notice and permission notice are retained.
