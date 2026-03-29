@@ -54,6 +54,11 @@ If you print one, add a photo.
 If something needs refining, say so.
 That is how this becomes more useful over time.
 
+Some other models mini-rack that are A1 Mini printable:
+[Collection of A1 Mini Models for a Mini Racl] (https://makerworld.com/en/collections/5038473-10-inch-rack-a1-mini)
+[TP Link SG108/ER605 Rack Mount] (https://makerworld.com/en/models/991712-10-inch-rack-mount-for-tp-link-sg108#profileId-1327399)
+[A1 Mini version of Modular 10 Inch Server Rack] (https://makerworld.com/en/models/1120367-10-inch-server-rack-by-natalie-t-a1-mini#profileId-1118661)
+
 ## Assembly 
 
 This design is intended to be practical. For retention, you can use a **5 mm zip tie** to help lock the equipment in place.
