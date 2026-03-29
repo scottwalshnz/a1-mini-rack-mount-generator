@@ -6,6 +6,10 @@
 
 This is a customisable rack-mount generator for 10-inch mini racks, built specifically so you can create clean equipment mounts on a Bambu Lab A1 Mini. Enter your device dimensions, generate the mount, and print a part that is made for your hardware instead of settling for whatever happens to be close enough.
 
+## Photo
+![Assembled Rendered View](Rendered%20Assembled.png)
+
+
 ### Why
 
 I built this because I needed to rack-mount a Series 7 Intel NUC and could not find anything that would do the job and still print on my A1 Mini. My starting point was a device around **115.2 mm wide, 108.0 mm deep, and 51.3 mm high**. That gap led to this model. It started as a requirement for practical answer for one machine, became a more useful tool: a flexible way to mount mini PCs, small network gear, and other awkwardly sized devices cleanly in a mini rack while staying inside the A1 Mini print envelope.
