@@ -11,8 +11,6 @@ This is a customisable rack-mount generator for 10-inch mini racks, built specif
 <img src="Rendered%20Print%20Plate.png" alt="Print Plate Rendered View" width="50%">
 
 
-
-
 ### Why
 
 I built this because I needed to rack-mount a Series 7 Intel NUC and could not find anything that would do the job and still print on my A1 Mini. My starting point was a device around **115.2 mm wide, 108.0 mm deep, and 51.3 mm high**. That gap led to this model. It started as a requirement for practical answer for one machine, became a more useful tool: a flexible way to mount mini PCs, small network gear, and other awkwardly sized devices cleanly in a mini rack while staying inside the A1 Mini print envelope.
@@ -46,6 +44,8 @@ There are already good 10-inch rack and homelab models on MakerWorld: shelves, v
 
 This model is designed around A1 Mini constraints. It is intended to make practical mini-rack equipment mounting possible on the printer many people already own.
 
+**Recommend** using 0.20mm Stregth profile and only tested with PETG.
+
 ## Community
 
 If you have a device that needs a clean mini-rack mount, post the dimensions in the comments.
@@ -54,15 +54,9 @@ If you print one, add a photo.
 If something needs refining, say so.
 That is how this becomes more useful over time.
 
-## GitHub / Resources
+## Assembly 
 
-The code for this model is available on GitHub for anyone who wants to inspect it, adapt it, or extend it.
-
-GitHub: https://github.com/scottwalshnz/a1-mini-rack-mount-generator/
-
-## Assessment
-
-This design is intended to be practical, not precious. For retention, you can use a **5 mm zip tie** to help lock the equipment in place, following the approach used in the original generator this model builds from.
+This design is intended to be practical. For retention, you can use a **5 mm zip tie** to help lock the equipment in place.
 
 For final assembly, a **small amount of glue on the joints is recommended**. Not much is needed. Just enough to keep the split parts settled and tidy once the fit is confirmed.
 
@@ -88,6 +82,12 @@ server rack
 small form factor  
 custom shelf  
 mini server
+
+## GitHub / Resources
+
+The code for this model is available on GitHub for anyone who wants to inspect it, adapt it, or extend it.
+
+GitHub: https://github.com/scottwalshnz/a1-mini-rack-mount-generator/
 
 ## Attribution
 
