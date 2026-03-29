@@ -91,7 +91,7 @@ mini server
 
 ## Attribution
 
-Credit to **10 Inch Mini Rack Generator** on MakerWorld. This model is a remix of their MIT licensed SCAD code from **spuder/10-Inch-Rack-OpenSCAD**.
+Credit to [**10 Inch Mini Rack Generator**](https://makerworld.com/en/models/1765102-10-inch-mini-rack-generator#profileId-2512646) on MakerWorld. This model is a remix of their MIT licensed SCAD code from [**spuder/10-Inch-Rack-OpenSCAD**](https://github.com/spuder/10-Inch-Rack-OpenSCAD).
 
 ## Licensing
 
