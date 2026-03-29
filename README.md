@@ -64,8 +64,7 @@ For final assembly, a **small amount of glue on the joints is recommended**. Not
 
 mini rack  
 10 inch rack  
-A1 Mini  
-Bambu A1 Mini  
+A1 Mini   
 rack mount  
 Intel NUC  
 NUC rack mount  
@@ -73,14 +72,11 @@ mini PC mount
 homelab  
 network rack  
 custom rack mount  
-rack shelf  
 OpenSCAD  
 parametric  
 equipment mount  
 10 inch panel  
-server rack  
-small form factor  
-custom shelf  
+server rack   
 mini server
 
 ## GitHub / Resources
