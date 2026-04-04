@@ -81,7 +81,7 @@ module switch_mount(Equipment_Width, Equipment_Height, Equipment_Depth) {
     chassis_height = Equipment_Height + (2 * Case_Thickness);
 
     // A1 Mini split geometry
-    a1_dovetail_clearance = 0.09;
+    a1_dovetail_clearance = 0.11;
     a1_eps = 0.02;
     a1_curve_steps = 64;
     a1_curve_depth_cutoff = 0.5;
