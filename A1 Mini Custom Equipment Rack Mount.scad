@@ -81,7 +81,7 @@ module switch_mount(Equipment_Width, Equipment_Height, Equipment_Depth) {
     chassis_height = Equipment_Height + (2 * Case_Thickness);
 
     // A1 Mini split geometry
-    a1_dovetail_clearance = 0.10;
+    a1_dovetail_clearance = 0.09;
     a1_eps = 0.02;
     a1_curve_steps = 64;
     a1_curve_depth_cutoff = 0.5;
@@ -95,8 +95,10 @@ module switch_mount(Equipment_Width, Equipment_Height, Equipment_Depth) {
     a1_dovetail_root_h = max(8, Equipment_Height - 8);
     a1_dovetail_open_h = max(4, a1_dovetail_root_h - 8);
 
-    // Hidden overlap so the male tongues merge into the centre body as one solid
-    a1_join_overlap = 0.20;
+    // Hidden overlap so the male tongues merge robustly into the centre body.
+    // 0.20 mm is too small once the male profile is offset inward.
+    // Keep at least ~1 mm of bite into the chassis so the union is unambiguous.
+    a1_join_overlap = max(0.9, 4 * a1_dovetail_clearance + a1_eps);
 
     a1_curve_width = max(a1_eps, min(a1_curve_target_width, side_margin));
     a1_curve_depth = max(a1_eps, min(a1_curve_target_depth, chassis_depth_main / a1_curve_depth_cutoff));
@@ -211,7 +213,9 @@ module switch_mount(Equipment_Width, Equipment_Height, Equipment_Depth) {
         ]);
     }
 
-    // Male profiles extend slightly into the centre body so the union is a true solid merge
+    // Male profiles extend into the centre body by a hidden overlap.
+    // This must be materially larger than the dovetail clearance so the tongue
+    // remains positively fused to the chassis after inward offsetting.
     module left_male_dovetail_profile_xy() {
         polygon(points = [
             [left_root_x, root_y0],
